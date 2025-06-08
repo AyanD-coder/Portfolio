@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+    color: #bb86fc;
+
+
+}
+body{
+  background-color: #121212;
+  overflow-x: hidden;
+  margin: 1px;
+  padding: 1px;
+ 
+}
+.topbar{
+    height: 35px;
+    width: 100%;
+  background-color: rgb(70, 63, 63); 
+  display: flex;
+  flex-direction: row-reverse;
+  position: fixed;
+  z-index: 1000;
+  cursor: pointer;
+  margin: -1px -4px 2px -7px;
+ 
+ 
+ 
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+    margin: 32px -30px 12px 43px;
+}
+.left{
+
+  height: 70px;
+  width: 40%;
+}
+
+#img1{
+  margin: 33px 0px 0px 10px;
+    padding: 0px 0px 0px 0px;
+
+    height: 230px;
+    width: 230px;
+}
+
+
+.listcont{
+  color: #bb86fc;
+    gap: 4em;
+    display: flex;
+  margin: 8px;
+  padding: 1px;
+
+  list-style: none;
+}
+.button1{
+  margin: 10px 0px 10px 0px;
+
+}
+
+
+.footercontant{
+    display: flex;
+    gap: 2em;
+    margin: 0px 0px 0px 00px;
+    list-style: none;
+    background-color: rgb(70, 63, 63); 
+    position: absolute;
+    bottom: 0;
+    justify-content: space-around;
+   
+    
+    width: 100%;
+    padding: 6px 1px 0px 16px;
+    
+}
+
+  .img{
+    height: 20px;
+    width: 30px;
+    background-color: transparent;
+  }
+  button{
+    height: 25px;
+    width: 80px;
+    background-color: #100f12;
+    border: 1.5px solid rgb(77, 75, 75);
+    border-radius: 48%;
+    color: antiquewhite;
+    cursor: pointer;
+  }
+  
+  #contactSection {
+    display: none; /* hidden by default */
+  
+    color: #bb86fc;
+    background-color: #222;
+    padding: 15px;
+    border-radius: 6px;
+    position: relative;
+    width: 225px;
+    height: 70px;
+    margin: 30px;
+  }
+  
+  #contactSection.show {
+    display: block; /* or flex/grid depending on your layout */
+  }
+  #aboutSection {
+    display: none; /* hidden by default */
+  
+    color: #bb86fc;
+    background-color: #222;
+    padding: 15px;
+    border-radius: 6px;
+    position: relative;
+    width: 266px;
+    height: 190px;
+    font-size: small;
+    margin: 33px;
+  }
+  
+  #aboutSection.show {
+    display: block; /* or flex/grid depending on your layout */
+  }
+  .color {
+    background-color: red;
+    color: rgb(176, 48, 48); /* Optional: makes text visible on red */
+  }
+  
+
+  #blog{
+    font-style: normal;
+  }
+  #projectList {
+    display: none;
+    background-color: #f5f5f5;
+    padding: 2px;
+    border-radius: 8px;
+    margin-top: 10px;
+    height: 70px;
+    width: 188px;
+    background-color:  transparent ;
+  }
+  
+  #projectList.show {
+    display: block;
+  }
+  
+  #skillList {
+    display: none;
+    background-color: #f5f5f5;
+    padding: 2px;
+    border-radius: 8px;
+    margin-top: 10px;
+    height: 70px;
+    width: 188px;
+    background-color: transparent ;
+  }
+  
+  #skilllist.show {
+    display: block;
+  }
+  .hide{
+    display: none;
+  }
+  #cv{
+    background:#ba84fd;
+    color: rgb(251, 5, 5);
+    font-size: larger;
+    cursor: pointer;
+    font-weight: bolder;
+   height: 40px;
+   width: 100px;
+   border-radius: 1em;
+margin: 10px;
+   
+  }
+  #img1{
+    border-radius: 7em;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+ 
+  .navbar {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    padding: 5px;
+    background-color: #222;
+  }
+  
+  .navbar li {
+    color: #fff;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: slideFadeIn 0.5s ease forwards;
+  }
+  
+  /* Delay each item slightly */
+  .navbar li:nth-child(1) { animation-delay: 0.2s; }
+  .navbar li:nth-child(2) { animation-delay: 0.4s; }
+  .navbar li:nth-child(3) { animation-delay: 0.6s; }
+  .navbar li:nth-child(4) { animation-delay: 0.8s; }
+  
+  @keyframes slideFadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 2s ease forwards;
+  }
+  
+  @keyframes fadeInAnimation {
+    to {
+      opacity: 1;
+    }
+  }
+  .bounce-in {
+    animation: bounceIn 1s ease forwards;
+    /* Optional: set initial opacity and transform for smooth effect */
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  
+  @keyframes bounceIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.4);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.1);
+    }
+    70% {
+      transform: scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
