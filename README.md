@@ -9,10 +9,6 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 
 🔗 Social media links
 
-📱 Responsive design
-
-🌓 Dark/light mode (if applicable)
-
 🔄 Smooth scrolling & animations
 
 🛠️ Technologies Used
