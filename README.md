@@ -18,13 +18,6 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 🛠️ Technologies Used
 HTML5 / CSS3 / JavaScript
 
-[Framework/library, if any: React, Vue, Bootstrap, etc.]
-
-Custom CSS or CSS preprocessor (SASS/SCSS)
-
-Icons: FontAwesome / Bootstrap Icons / etc.
-
-[Optional: EmailJS, Formspree for contact form]
 
 🚀 Getting Started
 To view or run the project locally:
