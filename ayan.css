@@ -3,15 +3,33 @@
     padding: 0px;
    
     color: #bb86fc;
+     /* background: linear-gradient(to right, #ff7e5f, #feb47b); */
+/*     
+   background: radial-gradient(circle, #7a0000, #7f2f7f, #912222, #e06569); */
+    
+  /* background: conic-gradient(from 0deg, red, yellow, green, blue); */
+
+    
+
+
+
 
 
 }
+
+
+
+
 body{
-  background-color: #121212;
+  background-color:#2a0a0a;
   overflow-x: hidden;
   margin: 1px;
   padding: 1px;
- 
+      /* background: linear-gradient(to right, #7a0000, #7f2f7f, #912222, #e06569);
+       */
+     
+       
+    
 }
 .topbar{
     height: 35px;
@@ -22,8 +40,9 @@ body{
   position: fixed;
   z-index: 1000;
   cursor: pointer;
-  margin: -1px -4px 2px -7px;
- 
+  margin: -2px -4px 2px -7px;
+
+  
  
  
 }
@@ -33,12 +52,11 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
- 
-    margin: 32px -30px 12px 43px;
+    margin: 50px 40px 12px 43px;
 }
 .left{
 
-  height: 70px;
+  height: 230px;
   width: 40%;
 }
 
@@ -46,8 +64,8 @@ body{
   margin: 33px 0px 0px 10px;
     padding: 0px 0px 0px 0px;
 
-    height: 230px;
-    width: 230px;
+    height: 220px;
+    width: 210px;
 }
 
 
@@ -55,13 +73,13 @@ body{
   color: #bb86fc;
     gap: 4em;
     display: flex;
-  margin: 8px;
-  padding: 1px;
+  margin: 11px 35px 0px 10px;
+  padding: 1px 0px 1px 0px;
 
   list-style: none;
 }
 .button1{
-  margin: 10px 0px 10px 0px;
+  margin: 50px 0px 10px 0px;
 
 }
 
@@ -75,7 +93,7 @@ body{
     position: absolute;
     bottom: 0;
     justify-content: space-around;
-   
+    /* background-color: #a7aaa6; */
     
     width: 100%;
     padding: 6px 1px 0px 16px;
@@ -138,6 +156,7 @@ body{
 
   #blog{
     font-style: normal;
+    color: #000000;
   }
   #projectList {
     display: none;
@@ -167,13 +186,31 @@ body{
   
   #skilllist.show {
     display: block;
+    margin: 5px;
+    padding: 5px;
   }
+
+
+.github-projects
+{
+    display: block;
+}
+
+
   .hide{
     display: none;
   }
+
+  .cvbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 20px 20px;
+  }
   #cv{
-    background:#ba84fd;
-    color: rgb(251, 5, 5);
+    /* background: linear-gradient(to right, #e56868, #110e0e,#d5a2a2d1); */
+      background: linear-gradient(to right, #e56868, #411a8e, #d5a2a2d1);
+    color:#f0bfbf;
     font-size: larger;
     cursor: pointer;
     font-weight: bolder;
@@ -183,6 +220,8 @@ body{
 margin: 10px;
    
   }
+
+
   #img1{
     border-radius: 7em;
   }
@@ -197,13 +236,14 @@ margin: 10px;
     display: flex;
     gap: 3rem;
     padding: 5px;
-    background-color: #222;
+    /* background-color: #6f5670; */
+     background: linear-gradient(to right, #e56868, #411a8e, #d5a2a2d1);
   }
   
   .navbar li {
-    color: #fff;
+    color: #000000;
     opacity: 0;
-    transform: translateY(-20px);
+    transform: translateY(-100px);
     animation: slideFadeIn 0.5s ease forwards;
   }
   
@@ -255,3 +295,12 @@ margin: 10px;
     }
   }
   
+/* 
+.footer{
+    position: absolute;
+    bottom: 0;
+    justify-content: space-around;
+    
+    
+    width: 100%;
+    padding: 6px 1px 0px 16px;} */
