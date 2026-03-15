@@ -235,7 +235,7 @@ margin: 10px;
     list-style: none;
     display: flex;
     gap: 3rem;
-    padding: 5px;
+    padding: -1px;
     /* background-color: #6f5670; */
      background: linear-gradient(to right, #e56868, #411a8e, #d5a2a2d1);
   }
@@ -304,3 +304,252 @@ margin: 10px;
     
     width: 100%;
     padding: 6px 1px 0px 16px;} */
+
+/* ============ MEDIA QUERIES FOR RESPONSIVE DESIGN ============ */
+
+/* Extra Small Devices (Mobile Phones - <= 480px) */
+@media only screen and (max-width: 480px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 10px 12px 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .listcont {
+    gap: 1em;
+    margin: 11px 10px 0px 10px;
+    font-size: 0.9em;
+  }
+
+  .navbar {
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #img1 {
+    height: 150px;
+    width: 150px;
+    margin: 10px auto;
+  }
+
+  #contactSection,
+  #aboutSection {
+    width: 90%;
+    margin: 15px auto;
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  #aboutSection {
+    height: auto;
+  }
+
+  #projectList,
+  #skillList {
+    width: 90%;
+    height: auto;
+    font-size: 12px;
+  }
+
+  .cvbutton {
+    margin: 10px 0px;
+  }
+
+  #cv {
+    height: 35px;
+    width: 90px;
+    font-size: 0.9em;
+  }
+
+  button {
+    height: 30px;
+    width: 70px;
+    font-size: 12px;
+    margin: 5px;
+  }
+
+  .button1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .footercontant {
+    gap: 7em;
+    padding: 15px;
+    position: fixed;
+    
+  }
+
+  .img {
+    height: 18px;
+    width: 25px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.1em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+}
+
+/* Small Devices (Tablets Portrait - 481px to 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 20px 12px 20px;
+    align-items: center;
+  }
+
+  .left {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .listcont {
+    gap: 2em;
+    margin: 11px 20px 0px 20px;
+    font-size: 0.95em;
+  }
+
+  .navbar {
+    gap: 2rem;
+  }
+
+  #img1 {
+    height: 200px;
+    width: 180px;
+  }
+
+  #contactSection,
+  #aboutSection {
+    width: 85%;
+    margin: 20px auto;
+    font-size: 13px;
+  }
+
+  #projectList,
+  #skillList {
+    width: 85%;
+    font-size: 13px;
+    height: auto;
+  }
+
+  button {
+    height: 32px;
+    width: 75px;
+    font-size: 13px;
+  }
+
+  #cv {
+    height: 38px;
+    width: 95px;
+    font-size: 0.95em;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+}
+
+/* Medium Devices (Tablets Landscape - 769px to 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 30px 12px 30px;
+    justify-content: space-around;
+  }
+
+  .left {
+    width: 45%;
+    height: auto;
+  }
+
+  .right {
+    width: 45%;
+  }
+
+  .listcont {
+    gap: 2.5em;
+    margin: 11px 20px 0px 10px;
+  }
+
+  #img1 {
+    height: 210px;
+    width: 200px;
+  }
+
+  #contactSection,
+  #aboutSection {
+    width: 95%;
+    font-size: 14px;
+  }
+
+  button {
+    height: 28px;
+    width: 75px;
+    font-size: 13px;
+  }
+
+  #cv {
+    height: 38px;
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+}
+
+/* Large Devices (Desktop - > 1024px) */
+@media only screen and (min-width: 1025px) {
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 40px 12px 43px;
+  }
+
+  .left {
+    width: 40%;
+  }
+
+  .right {
+    width: auto;
+  }
+}
